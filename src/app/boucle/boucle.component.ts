@@ -1,3 +1,4 @@
+import { isNgTemplate } from '@angular/compiler';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,6 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./boucle.component.css']
 })
 export class BoucleComponent {
+
+  list =['le soleil','le ciel','oiseaux','et ta mdr'];
+  addItem(text :string){
+      this.list.push(text);
+
+  }
+
   
 
 }

@@ -1,2 +1,12 @@
 <p>boucle works!</p>
-git comm
+
+<div>
+    <button (click)="addItem('list')">List</button>
+    <button (click)="addItem('list1')">List1</button>
+    <button (click)="addItem('list2')">List2</button>
+    <p>list.length : {{list.length}}</p>
+    <ul>
+        <li *ngFor="let item of list">{{item}}</li>
+    
+    </ul>
+</div>
