@@ -13,6 +13,9 @@ export class CounterComponent {
   }
   decrement(){
     this.count= this.count -1 ;
+    if(this.count <0){
+      this.count= 0;
+    }
   }
 
 }

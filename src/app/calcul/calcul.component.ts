@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class CalculComponent {
 
+  a = 0;
+  b = 0;
+
+  result(){
+     return this.a+this.b ;
+  }
+
+
 }
