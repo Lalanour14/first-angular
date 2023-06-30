@@ -13,16 +13,17 @@ export class RoomListComponent {
     {id:1,name:'bedroom',area:20,opened:true},
     {id:4,name:'bathroom',area:13,opened:false}
   ];
-   newRoom:Room= {id:0,name:'',area:0,opened:true};
-
-   addRoom(room:Room){
-    this.list.push(this.newRoom);
-
-   }
-   onSubmit() {
-    
-    this.addRoom({...this.newRoom});
+   
+  
+  addRoom(room:Room) {
+    this.list.push(room);
   }
+    deleteRoom(room:Room) {
+      this.list = this.list.filter(item => item != room);
+    }
 
 
+
+  
 }
+
