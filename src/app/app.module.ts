@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { CalculComponent } from './calcul/calcul.component';
 import { FirstComponent } from './first/first.component';
+import { RoomListComponent } from './room-list/room-list.component';
+import { RoomItemComponent } from './room-item/room-item.component';
 @NgModule({
   declarations: [
    
@@ -16,7 +18,9 @@ import { FirstComponent } from './first/first.component';
     BoucleComponent,
     CounterComponent,
     CalculComponent,
-    FirstComponent
+    FirstComponent,
+    RoomListComponent,
+    RoomItemComponent
     
   ],
   imports: [
