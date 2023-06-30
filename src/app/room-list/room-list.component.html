@@ -4,4 +4,17 @@
     <app-room-item [room]="item" *ngFor="let item of list" />
 </main>
 
-
+<form (ngSubmit)="onSubmit()">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name"[(ngModel)]="newRoom.name">
+    </div>
+    <div>
+        <label for="area">Aera</label>
+        <input type="text" name="area"[(ngModel)]="newRoom.area">
+    </div>
+   
+    <button>Add</button>
+    
+    
+    </form>

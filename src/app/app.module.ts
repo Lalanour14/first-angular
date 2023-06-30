@@ -11,6 +11,7 @@ import { CalculComponent } from './calcul/calcul.component';
 import { FirstComponent } from './first/first.component';
 import { RoomListComponent } from './room-list/room-list.component';
 import { RoomItemComponent } from './room-item/room-item.component';
+import { RoomFormComponent } from './room-form/room-form.component';
 @NgModule({
   declarations: [
    
@@ -20,7 +21,8 @@ import { RoomItemComponent } from './room-item/room-item.component';
     CalculComponent,
     FirstComponent,
     RoomListComponent,
-    RoomItemComponent
+    RoomItemComponent,
+    RoomFormComponent
     
   ],
   imports: [

@@ -1,3 +1,10 @@
+article {
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+
 article h3 {
     color: green;
 }
