@@ -5,7 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './first.component.html',
   styleUrls: ['./first.component.css']
 })
-export class FirstComponent { name = 'Salim';
+export class FirstComponent { 
+  name = 'Salim';
 display=false;
  changeName() {
 

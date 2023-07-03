@@ -12,6 +12,8 @@ import { FirstComponent } from './first/first.component';
 import { RoomListComponent } from './room-list/room-list.component';
 import { RoomItemComponent } from './room-item/room-item.component';
 import { RoomFormComponent } from './room-form/room-form.component';
+import { QuizComponent } from './quiz/quiz.component';
+import { QuizItemComponent } from './quiz-item/quiz-item.component';
 @NgModule({
   declarations: [
    
@@ -22,7 +24,9 @@ import { RoomFormComponent } from './room-form/room-form.component';
     FirstComponent,
     RoomListComponent,
     RoomItemComponent,
-    RoomFormComponent
+    RoomFormComponent,
+    QuizComponent,
+    QuizItemComponent
     
   ],
   imports: [

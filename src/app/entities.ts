@@ -5,3 +5,8 @@
     opened:boolean;
 
  }
+ export interface Quizz {
+   question:string;
+   options:string[];
+   answer:number;
+}
